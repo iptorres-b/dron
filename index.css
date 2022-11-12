@@ -1,0 +1,151 @@
+.slider {
+  -webkit-appearance: none;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-bottom: 50px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+  
+  .container {
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20%;
+    transform: translateY(0px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #button2{
+    margin-right: 25px;
+    width: 80px;
+    height: 80px;
+    --border-radius: 0px 0px 0px 0px;
+    transform: rotate(45deg) skewX(5deg) skewY(5deg);
+    background-color: #10ccb3;
+  }
+  
+  #button4{
+    margin-left: 25px;
+    width: 80px;
+    height: 80px;
+    --border-radius: 0px 0px 0px 0px;
+    transform: rotate(45deg) skewX(5deg) skewY(5deg);
+    background-color: #10ccb3;
+  }
+  
+  #button1{
+    margin-bottom: -10px;
+    margin-top: 20px;
+    width: 80px;
+    height:80px;
+    --border-radius: 0px 0px 0px 0px;
+    transform: rotate(45deg) skewX(5deg) skewY(5deg);
+    background-color: #10ccb3
+   }
+  
+  #button5{
+    margin-top: -10px;
+    width: 80px;
+    height:80px;
+    transform: rotate(45deg) skewX(5deg) skewY(5deg);
+    --border-radius: 0px 0px 0px 0px;
+    background-color: #10ccb3;
+  }
+  
+  #button3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2a73b2;
+    background-color: #10ccb3
+  }
+  
+  #button0 {
+    width: 400px;
+    height: 40px;
+  }
+  
+  ion-range {
+    --bar-background: #a2d2ff;
+    --bar-background-active: #bde0fe;
+    --bar-height: 8px;
+    --bar-border-radius: 8px;
+    --knob-background: #ffc8dd;
+    --knob-size: 40px;
+    --pin-background: #ffafcc;
+    --pin-color: #fff;
+  }
+  
+  ion-icon {
+    font-size: 30px;
+    transform: rotate(-45deg);
+  }
+  
+  :root {
+    --color-green: #00a878;
+    --color-red: #fe5e41;
+    --color-button: #fdffff;
+    --color-black: #000;
+}
+.switch-button {
+    display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-red);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+  
