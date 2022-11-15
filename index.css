@@ -148,4 +148,8 @@ ion-menu-button {
     transform: translateX(2rem);
 }
 
+svg{
+  transform: rotate(-45deg);
+  font-size: large;
+}
   
